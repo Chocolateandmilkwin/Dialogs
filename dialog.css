@@ -1,0 +1,81 @@
+.dialog {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px black;
+    user-select: none;
+    overscroll-behavior: contain;
+}
+
+.dialogMove {
+    cursor: move;
+}
+
+.dialogHeader {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #252525ad;
+}
+
+.dialogContent {
+    overflow: auto;
+}
+
+.dialogModal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #252525ad;
+}
+
+.dialogResize {
+    position: absolute;
+    top: calc(100% - 10px);
+    left: calc(100% - 10px);
+    width: 10px;
+    height: 10px;
+    cursor: nw-resize;
+}
+
+.dialogMoveButton {
+    min-width: 3rem;
+    height: 3rem;
+    cursor: move;
+}
+
+.dialogMoveButton:hover {
+    background-color: gray;
+}
+
+.dialogButton {
+    min-width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.dialogButton:hover {
+    background-color: gray;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.flex-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important
+}
+
+.m-2 {
+    margin: .5rem !important
+}
+
+.p-1 {
+    padding: .25rem !important
+}
+
+.ml-auto {
+    margin-left: auto !important
+}
